@@ -1,8 +1,8 @@
 # Ex. No: 6 Creating Cursors using PL/SQL
-## AIM:
-To create a cursor using PL/SQL.
+### DATE:7/9/23
+### AIM:To create a cursor using PL/SQL.
 
-## Steps:
+### Steps:
 1.Create employee table with following attributes (empid NUMBER, empname VARCHAR(10), dept VARCHAR(10),salary NUMBER);
 
 2.Create a cursor named as employee_cursor
@@ -11,9 +11,9 @@ To create a cursor using PL/SQL.
 
 4.Close the cursor
 
-## Program:
-## Create employee table
-## Query:
+### Program:
+### Create employee table
+### Query:
 ```
 CREATE TABLE employee (empid INT PRIMARY KEY,empname VARCHAR(10),dept VARCHAR(10),salary DECIMAL(10, 2));
 
@@ -23,11 +23,11 @@ insert into employee values (2,'Divya','TL',25000);
 select * from employee;
 select * from employee;
 ```
-## Table:
+### Table:
 
 <img width="211" alt="d1" src="https://github.com/Niroshassithanathan/Ex-no-6-Creating-Cursors-using-PL-SQL/assets/121418437/a29a62e7-a7c0-48b3-b8bb-0c7071d68503">
 
-## PLSQL Cursor code
+### PLSQL Cursor code
 ```
 DELIMITER //
 
@@ -64,8 +64,8 @@ DELIMITER ;
 CALL fetch_employee_data();
 
 ```
-## Output:
+### Output:
 ![image](https://github.com/Niroshassithanathan/Ex-no-6-Creating-Cursors-using-PL-SQL/assets/121418437/c93febcd-6ff5-4fd2-b3b2-7d89c6b39472)
 
-## Result:
+### Result:
 Thus this program executed successfully.
